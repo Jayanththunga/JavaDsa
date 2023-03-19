@@ -4,3 +4,4 @@ JAVA and DSA
 2. Strings
 3. Sliding Window
 4. Stacks
+5. Linkedlist
