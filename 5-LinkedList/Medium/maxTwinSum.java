@@ -1,22 +1,5 @@
 // https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 public class maxTwinSum {
     public int pairSum(ListNode head) {
         if (head.next.next == null)
