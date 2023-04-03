@@ -7,13 +7,13 @@ public class boatsToSavePeople {
         int nob = 0;
         Arrays.sort(people);
 
-        int i=0, j=people.length-1;
-        while(i<=j){
-            if(people[i]+people[j]<=limit){
+        int i = 0, j = people.length - 1;
+        while (i <= j) {
+            if (people[i] + people[j] <= limit) {
                 nob++;
                 i++;
                 j--;
-            }else{
+            } else {
                 nob++;
                 j--;
             }
