@@ -7,3 +7,4 @@ JAVA and DSA
 5. Linkedlist
 6. Priority Queue (Heap)
 7. Binary Tree
+8. Binary Search Tree
